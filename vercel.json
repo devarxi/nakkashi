@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/index",            "destination": "/",             "permanent": true },
+    { "source": "/index.html",       "destination": "/",             "permanent": true },
+    { "source": "/about.html",       "destination": "/about",        "permanent": true },
+    { "source": "/contact.html",     "destination": "/contact",      "permanent": true },
+    { "source": "/our_gallery.html", "destination": "/our_gallery",  "permanent": true }
+  ]
+}

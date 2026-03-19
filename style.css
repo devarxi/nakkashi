@@ -37,7 +37,7 @@
   --shadow: rgba(0, 0, 0, 0.7);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
-  --header-h: 80px;
+  --header-h: 100px;
   --ticker-h: 36px;
 }
 
@@ -243,11 +243,11 @@ header.scrolled {
 .logo {
   display: flex;
   align-items: center;
-  height: 100px;
+  height: 130px;
 }
 
 .logo-image {
-  height: 100px;
+  height: 130px;
   width: auto;
   object-fit: contain;
   filter: brightness(1.1);
@@ -2496,11 +2496,11 @@ footer .social-link {
   }
 
   .logo {
-    height: 48px;
+    height: 60px;
   }
 
   .logo-image {
-    height: 48px;
+    height: 60px;
   }
 
   .hero-title {

@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="/images/logo.png"/>
+  <link rel="apple-touch-icon" href="/images/logo.png"/>
   <title>Nakkashi — Handcrafted Art</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap"/>
@@ -20,7 +22,7 @@
   <!-- Header -->
   <header>
     <div class="container header-container">
-      <a href="index.html" class="logo">
+      <a href="/" class="logo">
         <img src="images/logo.png" alt="Nakkashi" class="logo-image"/>
       </a>
       <div class="nav-icons">
@@ -29,10 +31,10 @@
       <div class="mobile-nav-menu" role="dialog" aria-label="Navigation">
         <div class="mobile-nav-close" aria-label="Close menu">✕</div>
         <ul class="mobile-nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="our_gallery.html">Our Gallery</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/our_gallery">Our Gallery</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -47,8 +49,8 @@
       <h1 class="hero-title">Where <em>Craft</em> Meets<br>Living</h1>
       <p class="hero-subtitle">Discover unique artisan creations — wall pieces, sketches and conceptual interiors — born from tradition, made for today.</p>
       <div class="hero-cta">
-        <a href="our_gallery.html" class="btn btn-primary">Explore Gallery</a>
-        <a href="about.html" class="btn btn-outline">Our Story</a>
+        <a href="/our_gallery" class="btn btn-primary">Explore Gallery</a>
+        <a href="/about" class="btn btn-outline">Our Story</a>
       </div>
     </div>
     <div class="hero-scroll">
@@ -80,7 +82,7 @@
 
       <div class="slideshow-gallery-prompt">
         <p>Discover the full collection in our gallery</p>
-        <a href="our_gallery.html" class="btn btn-outline">Explore All Artworks</a>
+        <a href="/our_gallery" class="btn btn-outline">Explore All Artworks</a>
       </div>
     </div>
   </section>
@@ -98,7 +100,7 @@
           <div class="section-divider left"></div>
           <p>At Nakkashi, we believe in the quiet power of handmade things. Each piece is carefully brought to life by artisans who pour their passion and expertise into every stroke, cut and press.</p>
           <p>Our mission is to honour traditional Indian crafting techniques while creating works that feel at home in modern spaces — meaningful objects rather than mere decoration.</p>
-          <a href="about.html" class="btn btn-outline" style="margin-top:1rem;">Learn More</a>
+          <a href="/about" class="btn btn-outline" style="margin-top:1rem;">Learn More</a>
         </div>
       </div>
     </div>
@@ -123,16 +125,16 @@
         <div class="footer-column">
           <h3>Explore</h3>
           <ul class="footer-links">
-            <li><a href="our_gallery.html">Our Gallery</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="/our_gallery">Our Gallery</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer-column">
           <h3>Contact</h3>
           <ul class="footer-links">
             <li><a href="tel:+917623861655">+91 76238 61655</a></li>
-            <li><a href="mailto:nakkashi1239@gmail.com">nakkashi1239@gmail.com</a></li>
+            <li><a href="/cdn-cgi/l/email-protection#325c53595953415a5b0300010b72555f535b5e1c515d5f"><span class="__cf_email__" data-cfemail="9cf2fdf7f7fdeff4f5adaeafa5dcfbf1fdf5f0b2fff3f1">[email&#160;protected]</span></a></li>
             <li>Vadodara, Gujarat, India</li>
           </ul>
         </div>
@@ -144,7 +146,7 @@
   </footer>
 
   <!-- Three.js + GSAP -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="artworks.js"></script>
@@ -174,7 +176,7 @@
           '</div>' +
         '</div>';
       slide.addEventListener("click", function() {
-        window.location.href = 'our_gallery.html?artwork=' + encodeURIComponent(art.title);
+        window.location.href = '/our_gallery??artwork=' + encodeURIComponent(art.title);
       });
       track.appendChild(slide);
 
@@ -210,13 +212,3 @@
     // Touch swipe
     var startX = 0;
     container.addEventListener("touchstart", function(e) { startX = e.touches[0].clientX; }, { passive: true });
-    container.addEventListener("touchend", function(e) {
-      var diff = startX - e.changedTouches[0].clientX;
-      if (Math.abs(diff) > 50) { show(diff > 0 ? cur + 1 : cur - 1); reset(); }
-    });
-
-    start();
-  });
-  </script>
-</body>
-</html>
