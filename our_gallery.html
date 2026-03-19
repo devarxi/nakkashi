@@ -121,7 +121,7 @@
           <h3>Contact</h3>
           <ul class="footer-links">
             <li><a href="tel:+917623861655">+91 76238 61655</a></li>
-            <li><a href="/cdn-cgi/l/email-protection#0f616e64646e7c67663e3d3c364f68626e6663216c6062"><span class="__cf_email__" data-cfemail="cba5aaa0a0aab8a3a2faf9f8f28baca6aaa2a7e5a8a4a6">[email&#160;protected]</span></a></li>
+            <li><a href="/cdn-cgi/l/email-protection#93fdf2f8f8f2e0fbfaa2a1a0aad3f4fef2faffbdf0fcfe"><span class="__cf_email__" data-cfemail="d0beb1bbbbb1a3b8b9e1e2e3e990b7bdb1b9bcfeb3bfbd">[email&#160;protected]</span></a></li>
             <li>Vadodara, Gujarat, India</li>
           </ul>
         </div>
@@ -146,4 +146,12 @@
   <script>
     (function () {
       const params = new URLSearchParams(window.location.search);
-  
+        const title  = params.get("artwork");
+      if (title) {
+        const art = artworks.find(a => a.title === decodeURIComponent(title));
+        if (art) setTimeout(() => openArtworkModal(art), 200);
+      }
+    })();
+  </script>
+</body>
+</html>

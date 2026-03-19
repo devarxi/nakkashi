@@ -134,7 +134,7 @@
           <h3>Contact</h3>
           <ul class="footer-links">
             <li><a href="tel:+917623861655">+91 76238 61655</a></li>
-            <li><a href="/cdn-cgi/l/email-protection#325c53595953415a5b0300010b72555f535b5e1c515d5f"><span class="__cf_email__" data-cfemail="9cf2fdf7f7fdeff4f5adaeafa5dcfbf1fdf5f0b2fff3f1">[email&#160;protected]</span></a></li>
+            <li><a href="/cdn-cgi/l/email-protection#3e505f55555f4d56570f0c0d077e59535f5752105d5153"><span class="__cf_email__" data-cfemail="6d030c06060c1e05045c5f5e542d0a000c0401430e0200">[email&#160;protected]</span></a></li>
             <li>Vadodara, Gujarat, India</li>
           </ul>
         </div>
@@ -176,7 +176,7 @@
           '</div>' +
         '</div>';
       slide.addEventListener("click", function() {
-        window.location.href = '/our_gallery??artwork=' + encodeURIComponent(art.title);
+        window.location.href = '/our_gallery?artwork=' + encodeURIComponent(art.title);
       });
       track.appendChild(slide);
 
@@ -212,3 +212,13 @@
     // Touch swipe
     var startX = 0;
     container.addEventListener("touchstart", function(e) { startX = e.touches[0].clientX; }, { passive: true });
+    container.addEventListener("touchend", function(e) {
+      var diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) { show(diff > 0 ? cur + 1 : cur - 1); reset(); }
+    });
+
+    start();
+  });
+  </script>
+</body>
+</html>
