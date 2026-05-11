@@ -28,7 +28,7 @@ const artworks = [
     { title: "Kashtabhanjan Hanumanji Maharaj 🚩", description: "", genre: "wallpieces", images: ["images/art/wallpiece11.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
     { title: "Lippan Luxe", description: "A luxurious take on traditional Lippan art, featuring intricate patterns and metallic accents.", genre: "wallpieces", images: ["images/art/wallpiece12.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
     { title: "Saptlakshmi Chinha", description: "A sacred symbol representing the seven forms of Goddess Lakshmi, each blessing a different aspect of life.", genre: "wallpieces", images: ["images/art/wallpiece13.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
-    { title: "SHRI CHHATRAPATI SHIVAJI MAHARAJ. 3D custom artpiece.", description: "A 3D custom artpiece depicting the grandeur of Chhatrapati Shivaji Maharaj.", genre: "wallpieces", images: ["images/art/wallpiece14.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
+    { title: "SHRI CHHATRAPATI SHIVAJI MAHARAJ. 3D custom artpiece.", description: "A 3D custom artpiece depicting the grandeur of Chhatrapati Shivaji Maharaj.", genre: "wallpieces", images: ["images/art/wallpiece14.jpeg"], size: "Customized by style and size | Handcrafted", featured: true },
 
     // Conceptual Interior
     { title: "Play Palette", description: "", genre: "other", images: ["images/art/conc_int1.jpg", "images/art/conc_int1_2.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
@@ -37,5 +37,5 @@ const artworks = [
     { title: "Peacock Palette", description: "A conceptual artpiece made with vision of depicting the beauty of the peacock.", genre: "other", images: ["images/art/conc_int4.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
     { title: "Whispers of Gold", description: "Where white space becomes the canvas and gold becomes the voice. Simplicity, refinement, and the power of understated detail.", genre: "other", images: ["images/art/conc_int5.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
     { title: "Yanfeng Employee Recognition Wall", description: "A symbol of appreciation for the efforts, ideas, and integrity of our employees — success built by people who are valued.", genre: "other", images: ["images/art/conc_int6.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
-    { title: "SHRI CHHATRAPATI SHIVAJI MAHARAJ.", description: "Swarajya 🚩.", genre: "other", images: ["images/art/conc_int7.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
+    { title: "SHRI CHHATRAPATI SHIVAJI MAHARAJ.", description: "Swarajya 🚩.", genre: "other", images: ["images/art/conc_int7.jpeg"], size: "Customized by style and size | Handcrafted", featured: true },
 ];
