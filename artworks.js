@@ -13,7 +13,7 @@ const artworks = [
     { title: "", description: "", genre: "sketches", images: ["images/art/sketch11.jpg"], size: "Customized by style and size", featured: false },
     { title: "", description: "", genre: "sketches", images: ["images/art/sketch12.jpg"], size: "Customized by style and size", featured: false },
     { title: "", description: "A sketch reflects a perfect happy couple", genre: "sketches", images: ["images/art/sketch13.jpg", "images/art/sketch13_2.jpg"], size: "Customized by style and size", featured: false },
-    { title: "Echoes from the Mine", description: "This face represents voices, struggles, and silent stories from within the depths.", genre: "sketches", images: ["images/art/sketch14.jpg"], size: "Customized by style and size", featured: true },
+    { title: "Echoes from the Mine", description: "This face represents voices, struggles, and silent stories from within the depths.", genre: "sketches", images: ["images/art/sketch14.jpeg"], size: "Customized by style and size", featured: true },
 
     // Wall Pieces
     { title: "Leaf n Line.", description: "Geometric Design, With Monstera & Banana Leaves.", genre: "wallpieces", images: ["images/art/wallpiece1.jpg"], size: "Customized by style and size | Handcrafted", featured: false },
