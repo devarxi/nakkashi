@@ -30,6 +30,7 @@ const artworks = [
     { title: "Lippan Luxe", description: "A luxurious take on traditional Lippan art, featuring intricate patterns and metallic accents.", genre: "wallpieces", images: ["images/art/wallpiece12.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
     { title: "Saptlakshmi Chinha", description: "A sacred symbol representing the seven forms of Goddess Lakshmi, each blessing a different aspect of life.", genre: "wallpieces", images: ["images/art/wallpiece13.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
     { title: "SHRI CHHATRAPATI SHIVAJI MAHARAJ. 3D custom artpiece.", description: "A 3D custom artpiece depicting the grandeur of Chhatrapati Shivaji Maharaj.", genre: "wallpieces", images: ["images/art/wallpiece14.jpeg"], size: "Customized by style and size | Handcrafted", featured: true },
+    { title: "Shiva Krishna", description: "A name plate that says it all.", genre: "wallpieces", images: ["images/art/wallpiece15.jpeg"], size: "Customized by style and size | Handcrafted", featured: true },
 
     // Conceptual Interior
     { title: "Play Palette", description: "", genre: "other", images: ["images/art/conc_int1.jpg", "images/art/conc_int1_2.jpg"], size: "Customized by style and size | Handcrafted", featured: true },
